@@ -1,0 +1,84 @@
+/*
+----------------------
+TRANSFERT
+----------------------
+*/
+
+.transfert,
+.transfert-qualif {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.transfert-key,
+.transfert-ass-env,
+.transfert-prev {
+	display: block;
+	padding: 100px;
+}
+
+.transfert-key h2,
+.transfert-prev h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.transfert-qualif img {
+	display: block;
+	width: 100%;
+	border-bottom: 4px solid #d6446b;
+}
+
+.transfert-qualif h2 {
+	font-size: 20px;
+	color: #d6446b;
+	font-weight: bold;
+	margin: 20px 0px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.transfert-qualif ul li {
+	font-size: 14px;
+}
+
+.transfert-ass-env h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.transfert-ass-env p {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+.transfert-key ul li {
+	font-size: 14px;
+}
+
+.transfert-prev ul li {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.about-flotte, .about {
+    display: block;
+    padding: 100px;
+    background-color: white;
+}
+
+.about-flotte h2, .about h2 {
+    font-family: 'Noto sans', sans-serif;
+    font-weight: bold;
+    color: #d6446b;
+    margin-bottom: 20px;
+    text-align: center;
+}

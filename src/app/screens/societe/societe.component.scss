@@ -1,0 +1,98 @@
+
+/*
+----------------------
+LA SOCIETE
+----------------------
+*/
+
+.about-service {
+	display: block;
+	padding: 100px;
+}
+
+.about-service h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about-flotte,
+.about {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.about-engagement {
+	display: block;
+	padding: 100px;
+}
+
+.about-flotte img {
+	display: block;
+	margin: 50px auto;
+}
+
+.about-flotte h2,
+.about h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about-engagement h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.about p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.about-flotte p,
+.about-engagement p {
+	font-size: 15px;
+}
+
+.truck {
+	font-family: 'Noto sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn-primary {
+	width: 150px;
+	float: right;
+}
+
+.btn-readmore {
+	margin: 40px 0px 0px;
+	text-align: center;
+	font-size: 13px;
+	display: block;
+	width: 100%;
+	color: #999;
+}
+
+.media {
+	padding: 40px 30px;
+	background-color: white;
+}
+
+.media-body h4 {
+	color: #032564;
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}

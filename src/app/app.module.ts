@@ -7,9 +7,15 @@ import { SliderComponent } from './components/slider/slider.component';
 import { HomeComponent } from './screens/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SocieteComponent } from './screens/societe/societe.component';
-import { PrestationsComponent } from './screens/prestations/prestations.component';
 import { ContactComponent } from './screens/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ParticuliersComponent } from './screens/particuliers/particuliers.component';
+import { TransfertsComponent } from './screens/transferts/transferts.component';
+import { TransportsComponent } from './screens/transports/transports.component';
+import { GardeMeubleComponent } from './screens/garde-meuble/garde-meuble.component';
+import { QualiteComponent } from './screens/qualite/qualite.component';
+import { DevisComponent } from './screens/devis/devis.component';
+import { MentionsLegalesComponent } from './screens/mentions-legales/mentions-legales.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +24,15 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     NavbarComponent,
     SocieteComponent,
-    PrestationsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ParticuliersComponent,
+    TransfertsComponent,
+    TransportsComponent,
+    GardeMeubleComponent,
+    QualiteComponent,
+    DevisComponent,
+    MentionsLegalesComponent
   ],
   imports: [
     BrowserModule,

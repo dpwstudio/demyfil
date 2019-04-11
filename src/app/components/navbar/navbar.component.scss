@@ -1,0 +1,57 @@
+/*
+----------------------
+NAV
+----------------------
+*/
+
+.logo img {
+	width: 100px;
+}
+
+.dropdown-menu>li>a {
+	font-family: "Open sans";
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: #d6446b;
+}
+
+.client {
+	margin: 45px 0px;
+}
+
+.turn img {
+	width: 80%;
+}
+
+.client>p,
+.client a i {
+	font-size: 15px;
+	color: #fff;
+}
+
+.size img {
+	width: 55%;
+}
+
+.navbar-inner {
+	padding: 10px 0;
+}
+
+.devis a {
+	background-color: #d6446b;
+	color: white !important;
+}
+
+.devis a:hover {
+	background-color: #d6446b !important;
+	color: white !important;
+}
+
+.contact-form {
+	margin-bottom: 50px;
+}
+
+.nav li a {
+	font-weight: normal !important;
+}
