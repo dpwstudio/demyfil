@@ -1,0 +1,53 @@
+/*
+----------------------
+ACCUEIL
+----------------------
+*/
+
+.gap h3 {
+	font-size: 25px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.media {
+	padding: 40px 30px;
+	background-color: white;
+}
+
+.media-body h4 {
+	color: #032564;
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.icon-medium {
+	width: 38px;
+	line-height: 38px;
+	font-size: 25px;
+}
+
+.bloc {
+	height: 250px;
+}
+
+.bloc2 {
+	height: 345px;
+}
+
+.main-info h4 {
+	color: #032564;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+}
+
+.turn:hover {
+	transform: rotate(360deg);
+	transition: all 900ms ease;
+	-webkit-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+}

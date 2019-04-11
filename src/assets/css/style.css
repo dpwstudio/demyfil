@@ -1,0 +1,762 @@
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	font-size: 14px;
+}
+
+.marg-bottom {
+	margin-bottom: 30px;
+}
+
+.soc h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	font-size: 25px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+ul.breadcrumb>li {
+	font-size: 14px;
+}
+
+
+/*
+----------------------
+NAV
+----------------------
+*/
+
+.logo img {
+	width: 100px;
+}
+
+.dropdown-menu>li>a {
+	font-family: "Open sans";
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: #d6446b;
+}
+
+.client {
+	margin: 45px 0px;
+}
+
+.turn img {
+	width: 80%;
+}
+
+.client>p,
+.client a i {
+	font-size: 15px;
+	color: #fff;
+}
+
+.size img {
+	width: 55%;
+}
+
+.navbar-inner {
+	padding: 10px 0;
+}
+
+.devis a {
+	background-color: #d6446b;
+	color: white !important;
+}
+
+.devis a:hover {
+	background-color: #d6446b !important;
+	color: white !important;
+}
+
+.contact-form {
+	margin-bottom: 50px;
+}
+
+.banner-image {
+	background: url('../images/transport.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 200px;
+}
+
+.nav li a {
+	font-weight: normal !important;
+}
+
+
+/*
+----------------------
+ACCUEIL
+----------------------
+*/
+
+.gap h3 {
+	font-size: 25px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.media {
+	padding: 40px 30px;
+	background-color: white;
+}
+
+.media-body h4 {
+	color: #032564;
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.icon-medium {
+	width: 38px;
+	line-height: 38px;
+	font-size: 25px;
+}
+
+.bloc {
+	height: 250px;
+}
+
+.bloc2 {
+	height: 345px;
+}
+
+.main-info h4 {
+	color: #032564;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+}
+
+.turn:hover {
+	transform: rotate(360deg);
+	transition: all 900ms ease;
+	-webkit-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+}
+
+
+/*
+----------------------
+LA SOCIETE
+----------------------
+*/
+
+.about-service {
+	display: block;
+	padding: 100px;
+}
+
+.about-service h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about-flotte,
+.about {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.about-engagement {
+	display: block;
+	padding: 100px;
+}
+
+.about-flotte img {
+	display: block;
+	margin: 50px auto;
+}
+
+.about-flotte h2,
+.about h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about-engagement h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.about p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.about-flotte p,
+.about-engagement p {
+	font-size: 15px;
+}
+
+.truck {
+	font-family: 'Noto sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn-primary {
+	width: 150px;
+	float: right;
+}
+
+.btn-readmore {
+	margin: 40px 0px 0px;
+	text-align: center;
+	font-size: 13px;
+	display: block;
+	width: 100%;
+	color: #999;
+}
+
+
+/*
+----------------------
+TRANSFERT
+----------------------
+*/
+
+.transfert,
+.transfert-qualif {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.transfert-key,
+.transfert-ass-env,
+.transfert-prev {
+	display: block;
+	padding: 100px;
+}
+
+.transfert-key h2,
+.transfert-prev h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.transfert-qualif img {
+	display: block;
+	width: 100%;
+	border-bottom: 4px solid #d6446b;
+}
+
+.transfert-qualif h2 {
+	font-size: 20px;
+	color: #d6446b;
+	font-weight: bold;
+	margin: 20px 0px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.transfert-qualif ul li {
+	font-size: 14px;
+}
+
+.transfert-ass-env h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.transfert-ass-env p {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+.transfert-key ul li {
+	font-size: 14px;
+}
+
+.transfert-prev ul li {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.transfert-ass-env {}
+
+
+/*
+----------------------
+DEMENAGEMENT
+----------------------
+*/
+
+.accordion-inner h4 {
+	color: #d6446b;
+	font-weight: bold;
+	font-family: 'Noto sans', sans-serif;
+}
+
+.demenagement-formule .accordion-inner p {
+	text-align: left;
+}
+
+.demenagement {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.demenagement-detail {
+	display: block;
+	padding: 100px;
+	background: url('../images/particuliers/1.jpg');
+	background-size: cover;
+}
+
+.demenagement h2,
+.demenagement-detail h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.demenagement p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.demenagement-detail p {
+	text-align: left;
+	font-size: 16px;
+}
+
+.demenagement-formule {
+	display: block;
+	padding: 100px;
+}
+
+.demenagement-formule h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.demenagement-formule p {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+.formule-color {
+	font-size: 16px;
+}
+
+
+/*
+----------------------
+TRANSPORT
+----------------------
+*/
+
+.transport {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.transport h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.transport-slog {
+	display: block;
+	padding: 150px;
+	background-image: url('../images/transport/2.jpg');
+	background-size: cover;
+	background-position-y: -85px;
+}
+
+.transport-slog h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+
+/*
+----------------------
+GARDE-MEUBLE
+----------------------
+*/
+
+.garde {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.garde h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	text-align: center;
+}
+
+.garde-slog {
+	display: block;
+	padding: 150px;
+	background-image: url('../images/garde.jpg');
+	background-size: cover;
+	background-position-y: -85px;
+}
+
+.garde-slog h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.qualite {
+	display: block;
+	padding: 100px;
+}
+
+.qualite h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.qualite p {
+	margin-bottom: 30px;
+}
+
+.qualite a {
+	background-color: #032564;
+	color: white;
+	padding: 10px;
+}
+
+.qualite a:hover {
+	background-color: #d6446b;
+	color: white;
+	padding: 10px;
+}
+
+
+/*
+----------------------
+POPUP
+----------------------
+*/
+
+#facebox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	text-align: left;
+	display: none;
+}
+
+#facebox .popup {
+	position: relative;
+	border: 3px solid rgba(0, 0, 0, 0);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+}
+
+#facebox .content {
+	display: table;
+	width: 370px;
+	background: #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/*
+----------------------
+FOOTER
+----------------------
+*/
+
+#tweets img {
+	width: 140px;
+}
+
+
+/*
+----------------------
+RESPONSIVE
+----------------------
+*/
+
+
+/* Lorsque l'écran à une largeur max de 1024px, 
+ce code ci-dessous est executé. 
+Ecran portable : Apple, Asus, Hp etc...
+*/
+
+@media screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.logo {
+		width: 20%;
+		margin-left: 20px;
+	}
+	.navbar .btn-navbar {
+		margin: 32px 15px;
+		text-shadow: none;
+		background: transparent;
+	}
+	.navbar .btn-navbar i.fa {
+		color: #032564;
+		font-size: 20px;
+	}
+	header.navbar .nav {
+		width: 100%;
+	}
+	.nav li a {
+		text-align: center;
+	}
+	.title {
+		margin-top: 0;
+	}
+	body>section#slide-show {
+		margin-top: 0px;
+	}
+	.top {
+		margin-top: 0;
+	}
+}
+
+
+/* Lorsque l'écran à une largeur max de 768px, 
+ce code ci-dessous est executé. 
+Ecran tablette : Apple, Android etc...
+*/
+
+@media only screen and (max-width: 767px) {
+	.container {
+		text-align: center;
+		width: 90%;
+	}
+	.sl-slider h2 {
+		padding-top: 120px;
+		font-size: 30px;
+	}
+	.sl-slider h3 {
+		font-size: 15px;
+	}
+	.pad {
+		margin-bottom: 20px;
+	}
+	.top {
+		margin-top: 0;
+	}
+	.size img {
+		width: 45%;
+	}
+	.title {
+		margin-top: 0;
+	}
+	.about-flotte,
+	.about,
+	.about-engagement,
+	.about-service {
+		padding: 30px;
+	}
+	.about-flotte h2,
+	.about h2,
+	.about-engagement h2,
+	.about-service h2 {
+		font-size: 29px;
+	}
+	.about-engagement p {
+		margin-bottom: 20px;
+	}
+	section>#about-us {
+		padding-bottom: 0;
+	}
+	body>section#slide-show {
+		margin-top: 0px;
+	}
+	.media {
+		margin-bottom: 20px !important;
+	}
+	.bloc {
+		height: inherit;
+	}
+	.turn img {
+		width: 50%;
+	}
+	/* TRANSFERT */
+	.transfert-key,
+	.transfert-ass-env,
+	.transfert-prev,
+	.transfert,
+	.transfert-qualif {
+		padding: 30px;
+	}
+	.transfert-key h2,
+	.transfert-ass-env h2,
+	.transfert-prev h2,
+	.transfert h2 {
+		font-size: 29px;
+	}
+	.transfert-key ul {
+		margin-bottom: 30px;
+	}
+	.transfert-qualif h2 {
+		font-size: 23px;
+	}
+	.transfert-qualif ul,
+	.transfert-qualif p {
+		margin-bottom: 30px;
+	}
+
+	/* DEMENAGEMENT */
+	.demenagement,
+	.demenagement-detail,
+	.demenagement-formule {
+		padding: 30px;
+	}
+	.demenagement-detail {
+		background: white;
+		border-top: 10px solid #efefef;
+	}
+	.demenagement h2,
+	.demenagement-detail h2,
+	.demenagement-formule h2 {
+		font-size: 29px;
+	}
+	/* TRANSPORT */
+	.transport,
+	.transport-slog {
+		padding: 30px;
+	}
+	.transport h2,
+	.transport-slog h2 {
+		font-size: 29px;
+	}
+	.transport img {
+		margin-bottom: 25px;
+	}
+	/* GARDE-MEUBLE */
+	.garde,
+	.garde-slog {
+		padding: 30px;
+	}
+	.garde h2,
+	.garde-slog h2 {
+		font-size: 29px;
+	}
+	/* QUALITE */
+	.qualite {
+		padding: 30px;
+	}
+	.qualite h2 {
+		font-size: 29px;
+	}
+	/* DEVIS */
+	.registration-form {
+		width: 90%;
+	}
+	/* FOOTER */
+	#tweets img {
+		width: 100px;
+		margin: 30px 0px;
+	}
+	/* Lorsque l'écran à une largeur max de 550px, 
+ce code ci-dessous est executé. 
+Smartphone : Iphone 5, Samsung Galaxy S4 etc...
+*/
+	@media only screen and (max-height: 600px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.navbar .btn-navbar {
+			margin: 32px 15px;
+			text-shadow: none;
+			background: transparent;
+		}
+		.navbar .btn-navbar i.fa {
+			color: #032564;
+			font-size: 20px;
+		}
+		header.navbar .nav {
+			width: 100%;
+		}
+		.logo {
+			width: 20%;
+		}
+	}
+	@media only screen and (max-width: 479px) {
+		.navbar .btn-navbar {
+			margin: 22px 15px;
+			text-shadow: none;
+			background: transparent;
+		}
+		.registration-form {
+			width: 85%;
+		}
+		header.navbar .nav {
+			width: 100%;
+		}
+		.navbar .btn-navbar i.fa {
+			color: #032564;
+			font-size: 20px;
+		}
+		.nav-collapse,
+		.nav-collapse.collapse {
+			margin: 0px;
+		}
+		.logo img {
+			width: 80px;
+			margin-left: 20px;
+		}
+		.navbar {
+			display: block;
+			width: 100%;
+			color: #032564;
+		}
+	}
+}
+
+@media only screen and (max-width: 360px) {}
