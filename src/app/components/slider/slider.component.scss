@@ -1,3 +1,8 @@
+#slide-show {
+  padding: 0;
+  margin-top: 100px;
+}
+
 .sl-slider-wrapper {
   width: 100%;
   height: 520px;
@@ -100,17 +105,17 @@
 }
 
 .sl-slide-horizontal .sl-slide-inner {
-  background: url('../images/slide/slide_4.jpg');
+  background: url('../../../assets/images/slide/slide_4.jpg');
   background-size: cover;
 }
 
 .sl-slide-vertical .sl-slide-inner {
-  background: url('../images/slide/slide_3.jpg');
+  background: url('../../../assets/images/slide/slide_3.jpg');
   background-size: cover;
 }
 
 .item3 .sl-slide-inner {
-  background: url('../images/slide/slide_2.jpg');
+  background: url('../../../assets/images/slide/slide_2.jpg');
   background-size: cover;
 }
 
