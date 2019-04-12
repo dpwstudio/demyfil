@@ -4,54 +4,173 @@ NAV
 ----------------------
 */
 
+header.navbar .navbar-inner {
+  background: #fff !important;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none
+}
+
+header #logo {
+  width: 220px;
+  height: 80px;
+  background: url(../../../assets/images/logo.png) no-repeat 0 50%
+}
+
+header.navbar {
+  margin: 0 auto
+}
+
+header.navbar .nav {
+  margin: 30px 0px;
+  float: right;
+  display: block;
+}
+
+header.navbar .nav>li {
+  margin-left: 1px
+}
+
+header.navbar .nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #333;
+  font-family: "Open sans";
+  font-size: 14px;
+  text-transform: uppercase;
+  text-shadow: none
+}
+
+header.navbar .nav>li>a:hover {
+  background: transparent;
+  color: #d6446b;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none
+}
+
+header.navbar .nav>li.active>a,
+header.navbar .nav>li.active>a:hover {
+  background: transparent;
+  color: #d6446b;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none
+}
+
+header.navbar .nav>li.dropdown.open>a.dropdown-toggle {
+  background: transparent;
+  color: #d6446b
+}
+
+header.navbar .nav>li.login>a {
+  border-left: 1px solid #e5e5e5
+}
+
+header .dropdown-menu {
+  margin-top: 20px
+}
+
+.dropdown-menu {
+  margin-top: -1px;
+  min-width: 180px
+}
+
+header .dropdown-menu:before {
+  display: none !important
+}
+
+.navbar .nav li.dropdown.open>.dropdown-toggle,
+.navbar .nav li.dropdown.active>.dropdown-toggle,
+.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+  background-color: transparent;
+  color: #d6446b
+}
+
+.navbar .nav>.active>a,
+.navbar .nav>.active>a:hover,
+.navbar .nav>.active>a:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none
+}
+
+.navbar .nav>li>a:focus,
+.navbar .nav>li>a:hover {
+  color: #d6446b
+}
+
+.dropdown-menu {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  border: 0
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a {
+  background: #24a259
+}
+
+
 .logo img {
-	width: 100px;
+  width: 100px;
 }
 
 .dropdown-menu>li>a {
-	font-family: "Open sans";
+  font-family: "Open sans";
 }
 
 .dropdown-menu>li>a:hover {
-	background-color: #d6446b;
+  background-color: #d6446b;
 }
 
 .client {
-	margin: 45px 0px;
+  margin: 45px 0px;
 }
 
 .turn img {
-	width: 80%;
+  width: 80%;
 }
 
 .client>p,
 .client a i {
-	font-size: 15px;
-	color: #fff;
+  font-size: 15px;
+  color: #fff;
 }
 
 .size img {
-	width: 55%;
+  width: 55%;
 }
 
 .navbar-inner {
-	padding: 10px 0;
+  padding: 10px 0;
 }
 
 .devis a {
-	background-color: #d6446b;
-	color: white !important;
+  background-color: #d6446b;
+  color: white !important;
 }
 
 .devis a:hover {
-	background-color: #d6446b !important;
-	color: white !important;
+  background-color: #d6446b !important;
+  color: white !important;
 }
 
 .contact-form {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .nav li a {
-	font-weight: normal !important;
+  font-weight: normal !important;
 }
