@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
 .clearfix {
   *zoom: 1
@@ -274,18 +274,6 @@ ul.tag-cloud li {
 
 .btn-social:hover {
   color: #fff
-}
-
-
-.main-info {
-  background-color: #fff;
-  color: #999;
-  padding: 50px 0px;
-  width: 100%;
-}
-
-.main-info h4 {
-  color: #000
 }
 
 .icon-medium {

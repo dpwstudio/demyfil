@@ -474,36 +474,26 @@
 
 		},
 		_stopSlideshow: function() {
-
 			if ( this.options.autoplay ) {
-
 				clearTimeout( this.slideshow );
 				this.isPlaying = false;
 				this.options.autoplay = false;
-
 			}
-
 		},
 		_destroy : function( callback ) {
-			
 			this.$el.off( '.slitslider' ).removeData( 'slitslider' );
 			$window.off( '.slitslider' );
 			$document.off( '.slitslider' );
 			this.$slides.each( function( i ) {
-
 				var $slide = $( this ),
 					$content = $slide.find( 'div.sl-content' ).children();
-
 				$content.appendTo( $slide );
 				$slide.children( 'div.sl-content-wrapper' ).remove();
-
 			} );
 			this.$slides.unwrap( this.$slideWrapper ).hide();
 			this.$slides.eq( 0 ).show();
 			if( callback ) {
-
 				callback.call();
-
 			}
 
 		},
@@ -511,59 +501,40 @@
 		add : function( $slides, callback ) {
 
 			this.$slides = this.$slides.add( $slides );
-
 			var self = this;
-			
-			
 			$slides.each( function( i ) {
-
 				var $slide = $( this ),
 					// vertical || horizontal
 					orientation = $slide.data( 'orientation' );
-
 				$slide.hide().addClass( 'sl-slide-' + orientation )
 					  .children()
 					  .wrapAll( '<div class="sl-content-wrapper" />' )
 					  .wrapAll( '<div class="sl-content" />' )
 					  .end()
 					  .appendTo( self.$el.find( 'div.sl-slides-wrapper' ) );
-
 			} );
 
 			this._setSize();
-
 			this.slidesCount = this.$slides.length;
-			
 			if ( callback ) {
-
 				callback.call( $items );
-
 			}
-
 		},
 		// public method: shows next slide
 		next : function() {
-
 			this._stopSlideshow();
 			this._navigate( 'next' );
-
 		},
 		// public method: shows previous slide
 		previous : function() {
-
 			this._stopSlideshow();
 			this._navigate( 'prev' );
-
 		},
 		// public method: goes to a specific slide
 		jump : function( pos ) {
-
 			pos -= 1;
-
 			if( pos === this.current || pos >= this.slidesCount || pos < 0 ) {
-
 				return false;
-
 			}
 
 			this._stopSlideshow();
@@ -597,78 +568,54 @@
 		},
 		// public method: check if isAnimating is true
 		isActive : function() {
-
 			return this.isAnimating;
-
 		},
 		// publicc methos: destroys the slicebox instance
 		destroy : function( callback ) {
-
 			this._destroy( callback );
-		
 		}
 
 	};
 	
 	var logError = function( message ) {
-
 		if ( window.console ) {
-
 			window.console.error( message );
-		
 		}
 
 	};
 	
 	$.fn.slitslider = function( options ) {
-
 		var self = $.data( this, 'slitslider' );
-		
 		if ( typeof options === 'string' ) {
-			
 			var args = Array.prototype.slice.call( arguments, 1 );
-			
 			this.each(function() {
-			
 				if ( !self ) {
-
 					logError( "cannot call methods on slitslider prior to initialization; " +
 					"attempted to call method '" + options + "'" );
 					return;
-				
 				}
 				
 				if ( !$.isFunction( self[options] ) || options.charAt(0) === "_" ) {
-
 					logError( "no such method '" + options + "' for slitslider self" );
 					return;
-				
 				}
 				
 				self[ options ].apply( self, args );
-			
 			});
 		
 		} 
 		else {
 		
 			this.each(function() {
-				
 				if ( self ) {
-
 					self._init();
-				
 				}
 				else {
-
 					self = $.data( this, 'slitslider', new $.Slitslider( options, this ) );
-				
 				}
 
 			});
-		
 		}
-		
 		return self;
 		
 	};

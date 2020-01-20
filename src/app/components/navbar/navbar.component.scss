@@ -23,17 +23,18 @@ header.navbar {
 }
 
 header.navbar .nav {
-  margin: 30px 0px;
+  margin: 10px 0px;
   float: right;
   display: block;
 }
 
 header.navbar .nav>li {
-  margin-left: 1px
+  margin-left: 5px;
 }
 
 header.navbar .nav>li>a {
   padding-top: 10px;
+  border-radius: 5px;
   padding-bottom: 10px;
   color: #333;
   font-family: "Open sans";
@@ -43,8 +44,8 @@ header.navbar .nav>li>a {
 }
 
 header.navbar .nav>li>a:hover {
-  background: transparent;
-  color: #d6446b;
+  background: #d6446b;
+  color: white;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none
@@ -109,7 +110,8 @@ header .dropdown-menu:before {
   -moz-box-shadow: none;
   box-shadow: none;
   padding: 0;
-  border: 0
+  border: 0;
+  font-size: 12px;
 }
 
 .dropdown-menu>.active>a,
@@ -139,16 +141,6 @@ header .dropdown-menu:before {
   margin: 45px 0px;
 }
 
-.turn img {
-  width: 80%;
-}
-
-.client>p,
-.client a i {
-  font-size: 15px;
-  color: #fff;
-}
-
 .size img {
   width: 55%;
 }
@@ -162,7 +154,17 @@ header .dropdown-menu:before {
   color: white !important;
 }
 
-.devis a:hover {
+.devis a:hover, .devis a:focus  {
+  background-color: #d6446b !important;
+  color: white !important;
+}
+
+.appel a {
+  color: #d6446b !important;
+  border: 1px solid #d6446b;
+}
+
+.appel a:hover {
   background-color: #d6446b !important;
   color: white !important;
 }
@@ -173,4 +175,71 @@ header .dropdown-menu:before {
 
 .nav li a {
   font-weight: normal !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+  header.navbar .nav > li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .navbar .btn-navbar {
+    margin: 32px 15px;
+    text-shadow: none;
+    background: transparent;
+  }
+
+  .navbar .btn-navbar i.fa {
+    color: #032564;
+    font-size: 20px;
+  }
+
+  header.navbar .nav {
+    width: 100%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .navbar .btn-navbar {
+    margin: 6px 15px;
+    text-shadow: none;
+    background: transparent;
+  }
+
+  .registration-form {
+    width: 85%;
+  }
+
+  header.navbar .nav {
+    width: 100%;
+  }
+
+  .navbar .btn-navbar i.fa {
+    color: #032564;
+    font-size: 20px;
+  }
+
+  .nav-collapse,
+  .nav-collapse.collapse {
+    margin: 0px;
+  }
+
+  .logo img {
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .navbar {
+    display: block;
+    width: 100%;
+    color: #032564;
+  }
 }

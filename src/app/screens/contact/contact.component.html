@@ -20,28 +20,31 @@
 
     <div class="span8 soc" style="margin-bottom: 40px;">
       <h2>Pour toutes questions, contactez-nous</h2>
-      <form method="POST" action="sendemail.php">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
         <div class="row-fluid">
           <div class="span5">
 
             <div class="control-group">
               <!-- Nom -->
               <div class="controls">
-                <input type="text" id="nom" name="nom" placeholder="Nom" class="input-block-level">
+                <input type="text" id="nom" formControlName="name" name="nom" placeholder="Nom"
+                  class="input-block-level">
               </div>
             </div>
 
             <div class="control-group">
               <!-- Prénom -->
               <div class="controls">
-                <input type="text" id="prenom" name="prenom" placeholder="Prénom" class="input-block-level">
+                <input type="text" id="prenom" formControlName="firstname" name="prenom" placeholder="Prénom"
+                  class="input-block-level">
               </div>
             </div>
 
             <div class="control-group">
               <!-- Email-->
               <div class="controls">
-                <input type="email" id="email" name="email" placeholder="Email" class="input-block-level">
+                <input type="email" id="email" formControlName="email" name="email" placeholder="Email"
+                  class="input-block-level">
               </div>
             </div>
 
@@ -51,8 +54,8 @@
             <div class="control-group">
               <!-- Message -->
               <div class="controls">
-                <textarea name="message" id="message" required="required" class="input-block-level" rows="8"
-                  placeholder="Message"></textarea>
+                <textarea name="message" id="message" formControlName="message" required="required"
+                  class="input-block-level" rows="8" placeholder="Message"></textarea>
               </div>
             </div>
           </div>
@@ -69,21 +72,21 @@
 
     <div class="span4">
       <h3>Adresse</h3>
-      <p>Demyfil Déménagements</p>
+      <p>Demyfil</p>
       <p>
-        <i class="icon-map-marker pull-left"></i> 7 rue Descartes<br> 95330 DOMONT
+        <i class="icon-map-marker pull-left"></i> 8 Rue Louis ARMAND<br> 95600 EAUBONNE
       </p>
       <p>
-        <i class="icon-envelope"></i> &nbsp;contact@demyfildemenagements.com
+        <i class="icon-envelope"></i> &nbsp;contact@demyfil.com
       </p>
       <p>
-        <i class="icon-phone"></i> &nbsp;01.76.54.47.58
+        <i class="icon-phone"></i> &nbsp;01 76 54 47 58
       </p>
     </div>
   </div>
 </section>
 <section class="no-margin">
   <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.9500682831!2d2.343715415680478!3d49.030556679304716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e64265a3937e83%3A0xb725b1795b3f0ab0!2s7+Rue+Descartes%2C+95330+Domont!5e0!3m2!1sfr!2sfr!4v1476728872505"
-    width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.363716387139!2d2.2763903156795373!3d49.003664979302016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e667e5e2a03721%3A0x9deb021361c6550!2s8%20Rue%20Louis%20Armand%2C%2095600%20Eaubonne!5e0!3m2!1sfr!2sfr!4v1579554463319!5m2!1sfr!2sfr"
+    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </section>

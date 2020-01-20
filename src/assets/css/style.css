@@ -23,80 +23,6 @@ ul.breadcrumb>li {
 	font-size: 14px;
 }
 
-
-
-/*
-----------------------
-DEMENAGEMENT
-----------------------
-*/
-
-.accordion-inner h4 {
-	color: #d6446b;
-	font-weight: bold;
-	font-family: 'Noto sans', sans-serif;
-}
-
-.demenagement-formule .accordion-inner p {
-	text-align: left;
-}
-
-.demenagement {
-	display: block;
-	padding: 100px;
-	background-color: white;
-}
-
-.demenagement-detail {
-	display: block;
-	padding: 100px;
-	background: url('../images/particuliers/1.jpg');
-	background-size: cover;
-}
-
-.demenagement h2,
-.demenagement-detail h2 {
-	font-family: 'Noto sans', sans-serif;
-	font-weight: bold;
-	color: #d6446b;
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.demenagement p {
-	text-align: center;
-	font-size: 15px;
-}
-
-.demenagement-detail p {
-	text-align: left;
-	font-size: 16px;
-}
-
-.demenagement-formule {
-	display: block;
-	padding: 100px;
-}
-
-.demenagement-formule h2 {
-	font-family: 'Noto sans', sans-serif;
-	font-weight: bold;
-	color: #d6446b;
-	margin-bottom: 20px;
-	text-align: left;
-}
-
-.demenagement-formule p {
-	text-align: center;
-	font-size: 15px;
-	margin-bottom: 30px;
-}
-
-.formule-color {
-	font-size: 16px;
-}
-
-
 /*
 ----------------------
 TRANSPORT
@@ -300,13 +226,6 @@ Ecran tablette : Apple, Android etc...
 		text-align: center;
 		width: 90%;
 	}
-	.sl-slider h2 {
-		padding-top: 120px;
-		font-size: 30px;
-	}
-	.sl-slider h3 {
-		font-size: 15px;
-	}
 	.pad {
 		margin-bottom: 20px;
 	}
@@ -323,7 +242,7 @@ Ecran tablette : Apple, Android etc...
 	.about,
 	.about-engagement,
 	.about-service {
-		padding: 30px;
+		padding: 30px !important;
 	}
 	.about-flotte h2,
 	.about h2,
@@ -430,54 +349,6 @@ Ecran tablette : Apple, Android etc...
 ce code ci-dessous est executé. 
 Smartphone : Iphone 5, Samsung Galaxy S4 etc...
 */
-	@media only screen and (max-height: 600px) {}
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		.navbar .btn-navbar {
-			margin: 32px 15px;
-			text-shadow: none;
-			background: transparent;
-		}
-		.navbar .btn-navbar i.fa {
-			color: #032564;
-			font-size: 20px;
-		}
-		header.navbar .nav {
-			width: 100%;
-		}
-		.logo {
-			width: 20%;
-		}
-	}
-	@media only screen and (max-width: 479px) {
-		.navbar .btn-navbar {
-			margin: 22px 15px;
-			text-shadow: none;
-			background: transparent;
-		}
-		.registration-form {
-			width: 85%;
-		}
-		header.navbar .nav {
-			width: 100%;
-		}
-		.navbar .btn-navbar i.fa {
-			color: #032564;
-			font-size: 20px;
-		}
-		.nav-collapse,
-		.nav-collapse.collapse {
-			margin: 0px;
-		}
-		.logo img {
-			width: 80px;
-			margin-left: 20px;
-		}
-		.navbar {
-			display: block;
-			width: 100%;
-			color: #032564;
-		}
-	}
 }
 
 @media only screen and (max-width: 360px) {}

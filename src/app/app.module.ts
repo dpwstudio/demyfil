@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { OwlModule } from 'ngx-owl-carousel';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SliderComponent } from './components/slider/slider.component';
@@ -16,6 +16,8 @@ import { GardeMeubleComponent } from './screens/garde-meuble/garde-meuble.compon
 import { QualiteComponent } from './screens/qualite/qualite.component';
 import { DevisComponent } from './screens/devis/devis.component';
 import { MentionsLegalesComponent } from './screens/mentions-legales/mentions-legales.component';
+import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,11 @@ import { MentionsLegalesComponent } from './screens/mentions-legales/mentions-le
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,70 @@
+/*
+----------------------
+DEMENAGEMENT
+----------------------
+*/
+
+.accordion-inner h4 {
+	color: #d6446b;
+	font-weight: bold;
+	font-family: 'Noto sans', sans-serif;
+}
+
+.demenagement-formule .accordion-inner p {
+	text-align: left;
+}
+
+.demenagement {
+	display: block;
+	padding: 100px;
+	background-color: white;
+}
+
+.demenagement-detail {
+	display: block;
+	padding: 100px;
+	background: url('../../../assets/images/particuliers/1.jpg');
+	background-size: cover;
+}
+
+.demenagement h2,
+.demenagement-detail h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.demenagement p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.demenagement-detail p {
+	text-align: left;
+	font-size: 16px
+}
+
+.demenagement-formule {
+	display: block;
+	padding: 100px;
+}
+
+.demenagement-formule h2 {
+	font-family: 'Noto sans', sans-serif;
+	font-weight: bold;
+	color: #d6446b;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.demenagement-formule p {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+.formule-color {
+	font-size: 16px;
+}
